@@ -2,7 +2,7 @@ class UF {
     constructor(n) {
         this.count = n; // 初始连同分量的数量
         this.parent = new Array(n); // 初始化的时候每个元素的父元素都是自己，这符合自反性
-        this.size = new Array(n);
+        this.size = new Array(n); // 初始化'重量'数组
         for (let i = 0; i < n; i++) {
             this.parent[i] = i;
             this.size[i] = i;
