@@ -1,7 +1,3 @@
-// /*
-// * 题目链接： https://leetcode-cn.com/problems/intersection-of-two-arrays/
-// * 描述：给定两个数组，编写一个函数来计算它们的交集。
-// * */
 
 /*
 * 题目链接：https://leetcode-cn.com/problems/intersection-of-two-arrays/
