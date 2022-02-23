@@ -1,6 +1,6 @@
 
 /*
-* 题目链接：https://leetcode-cn.com/problems/intersection-of-two-arrays/
+* 题目链接：https://leetcode-cn.com/problems/letersection-of-two-arrays/
 * 描述：给定两个数组，编写一个函数来计算它们的交集。
 * 示例：
 *   输入：nums1 = [1,2,2,1], nums2 = [2,2]
@@ -14,7 +14,7 @@
  * @param {number[]} nums2
  * @return {number[]}
  */
-var intersection = function(nums1, nums2) {
+var letersection = function(nums1, nums2) {
     nums1.sort((a, b) => a - b);
     nums2.sort((a, b) => a - b);
     let p1 = 0, p2 = 0;
@@ -36,4 +36,4 @@ var intersection = function(nums1, nums2) {
     return res;
 };
 let nums1 = [4,9,5], nums2 = [9,4,9,8,4]
-console.log(intersection(nums1, nums2));
+console.log(letersection(nums1, nums2));
