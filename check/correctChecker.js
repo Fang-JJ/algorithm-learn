@@ -8,9 +8,10 @@ function  getRandomArray(len) {
 }
 
 const array = getRandomArray(200);
-const myOriginArray = Object.assign([], array);
-const sortFunOriginArray = Object.assign([], array);
 
+// 分别克隆，防止修改到同一个数组
+const myOriginArray = array.slice();
+const sortFunOriginArray = array.slice();
 
 const sortFunSortedArray = sortFunOriginArray.sort((a, b) => a - b);
 
